@@ -1,0 +1,70 @@
+{
+  "name": "mollitiaratione",
+  "version": "1.0.0",
+  "description": "Execute code when the js-process exits. On all javascript-environments",
+  "author": "JuniorDooley",
+  "license": "Apache-2.0",
+  "keywords": [
+    "unload",
+    "ea",
+    "ab",
+    "qui",
+    "voluptatem",
+    "nisi"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MattWunsch/mollitiaratione.git"
+  },
+  "funding": "https://github.com/sponsors/pubkey",
+  "pre-commit": [
+    "lint"
+  ],
+  "main": "./dist/lib/index.js",
+  "module": "./dist/es/index.js",
+  "types": "./src/index.d.ts",
+  "devDependencies": {
+    "@babel/cli": "7.23.9",
+    "@babel/core": "7.24.0",
+    "@babel/plugin-check-constants": "7.0.0-beta.38",
+    "@babel/plugin-proposal-object-rest-spread": "7.20.7",
+    "@babel/plugin-transform-member-expression-literals": "7.23.3",
+    "@babel/plugin-transform-property-literals": "7.23.3",
+    "@babel/plugin-transform-runtime": "7.24.0",
+    "@babel/polyfill": "7.12.1",
+    "@babel/preset-env": "7.24.0",
+    "@babel/types": "7.24.0",
+    "assert": "2.1.0",
+    "async-test-util": "2.4.0",
+    "browserify": "17.0.0",
+    "child_process": "1.0.2",
+    "child-process-promise": "2.2.1",
+    "concurrently": "8.2.2",
+    "cors": "2.8.5",
+    "cross-env": "7.0.3",
+    "eslint": "8.57.0",
+    "express": "4.18.3",
+    "http-server": "14.1.1",
+    "karma": "6.4.3",
+    "karma-browserify": "8.1.0",
+    "karma-chrome-launcher": "3.2.0",
+    "karma-mocha": "2.0.1",
+    "mocha": "10.3.0",
+    "node-cmd": "5.0.0",
+    "npm-run-all2": "6.1.2",
+    "pre-commit": "1.2.2",
+    "request": "2.88.2",
+    "request-promise-native": "1.0.9",
+    "rimraf": "5.0.5",
+    "ts-node": "7.0.1",
+    "typescript": "5.4.2",
+    "uglify-js": "3.17.4",
+    "util": "0.12.5",
+    "watch": "1.0.2",
+    "watchify": "4.0.0"
+  },
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/MattWunsch/mollitiaratione.git/issues"
+  }
+}
